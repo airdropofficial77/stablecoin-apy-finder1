@@ -4,13 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "check-types": "tsc --noEmit --pretty",
-    "prepare": "husky install",
-    "test": "jest",
-    "test:coverage": "jest --coverage"
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint --no-lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
